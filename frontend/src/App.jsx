@@ -5,6 +5,8 @@ import SharedLayout from './components/SharedLayout'
 import {BrowserRouter, Route, Routes} from 
 'react-router-dom'
 import LandingPage from './LandingPage'
+import SignUp from './pages/SignUp'
+import EntryPage from './pages/EntryPage'
 function App() {
 
   return (
@@ -14,9 +16,10 @@ function App() {
     <Routes>
     <Route path='/' element={<SharedLayout/>}>
     <Route path="landing-page" element={<LandingPage/>} />
-    <Route path="signup" element={<LandingPage/>} />
+    <Route path="signup" element={<SignUp/>} />
     <Route path="login" element={<LandingPage/>} />
     <Route path="logout" element={<LandingPage/>} />
+    <Route path='entry-page' element={<EntryPage/>} />
     </Route>
     </Routes>
     </BrowserRouter>
