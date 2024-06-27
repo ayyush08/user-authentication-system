@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import SharedLayout from './components/SharedLayout'
 import {BrowserRouter, Route, Routes} from 
 'react-router-dom'
-import LandingPage from './LandingPage'
+import LandingPage from './pages/LandingPage'
 import SignUp from './pages/SignUp'
 import EntryPage from './pages/EntryPage'
 function App() {
