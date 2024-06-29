@@ -7,6 +7,8 @@ import {BrowserRouter, Route, Routes} from
 import LandingPage from './pages/LandingPage'
 import SignUp from './pages/SignUp'
 import EntryPage from './pages/EntryPage'
+import Login from './pages/Login'
+import Logout from './pages/Logout'
 function App() {
 
   return (
@@ -15,10 +17,10 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path='/' element={<SharedLayout/>}>
-    <Route path="landing-page" element={<LandingPage/>} />
+    <Route path="/" element={<LandingPage/>} />
     <Route path="signup" element={<SignUp/>} />
-    <Route path="login" element={<LandingPage/>} />
-    <Route path="logout" element={<LandingPage/>} />
+    <Route path="login" element={<Login/>} />
+    <Route path="logout" element={<Logout/>} />
     <Route path='entry-page' element={<EntryPage/>} />
     </Route>
     </Routes>
