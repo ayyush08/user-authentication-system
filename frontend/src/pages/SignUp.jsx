@@ -44,12 +44,15 @@ const SignUp = () => {
             <div className='flex gap-5 flex-col border-white border-2 justify-center items-center md:h-[50vh] h-[70vh] w-[40vw] rounded-3xl '>
                 <h1 className='text-white text-4xl'>SignUp</h1>
                 <div className="form flex flex-col transition-all">
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} className='flex flex-col'>
 
                         <input type='text' name='username' placeholder='Username' className='p-2 m-2 border-2 border-white rounded-lg text-black' value={user.username} onChange={handleChange} />
                         <input type='email' name='email' placeholder='Email' className='p-2 m-2 border-2 border-white rounded-lg text-black' value={user.email} onChange={handleChange} />
                         <input type='password' name='password' placeholder='Password' className='p-2 m-2 border-2 border-white rounded-lg text-black' value={user.password} onChange={handleChange} />
+                        <div className='mx-auto'>
+
                         <button className='p-2 m-2 border-2 border-white rounded-lg hover:bg-white hover:text-black transition-all ' type='submit'>SignUp</button>
+                        </div>
                     </form>
                 </div>
             </div>
