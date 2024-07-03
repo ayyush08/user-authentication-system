@@ -7,10 +7,6 @@ const SignUp = () => {
 
     const [user, setUser] = useState({ username: '', email: '', password: '' })
     const [error, setError] = useState('')
-    useEffect(() => {
-
-    }, [])
-
     const navigate = useNavigate()
     const handleSubmit = async (e) => {
         e.preventDefault();
