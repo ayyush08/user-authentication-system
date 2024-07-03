@@ -8,7 +8,6 @@ import LandingPage from './pages/LandingPage'
 import SignUp from './pages/SignUp'
 import EntryPage from './pages/EntryPage'
 import Login from './pages/Login'
-import Logout from './pages/Logout'
 function App() {
 
   return (
