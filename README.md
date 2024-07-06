@@ -64,7 +64,7 @@ cd ../frontend
 ```
 npm install
 ```
-6. Start the Development servers on both Frontend and Backend:
+6. Start the Development servers on both Frontend and Backend and Make sure your database server is also online:
 - Frontend:
   ```
   npm run dev
