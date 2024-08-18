@@ -19,6 +19,6 @@ const blogsSchema = new Schema({
     }
 },{
     timestamps:true
-})
+}) 
 
 export const Blogs = mongoose.model('Blogs',blogsSchema)
